@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.container{
+    max-width: 360px;
+    margin: 0 auto;
+}
+.card img{
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 8px;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    padding: 18px 20px;
+    margin: 0 16px;
+}
+
+h2{
+    padding-bottom:12px;
+    color: hsl(0, 0%, 100%);
+}
+.text-1{
+    padding-bottom: 12px;
+    color: hsl(215, 51%, 70%);
+}
+.text-left{
+    color: hsl(178, 100%, 50%);
+    top: 15px;
+    
+}
+.text-right{
+    color: hsl(215, 51%, 70%);
+    left: -224px;
+}
+.icon-ethe,
+.text-left {
+    vertical-align: middle;
+    display: inline-block;
+}
+.icon-clock,
+.text-right {
+    vertical-align: middle;
+    display: inline-block;
+}
+.profile img{
+    width: 40px;
+    position: relative;
+    margin-top: 30px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+.profile p{
+    position: relative;
+    top: 5px;
+    color: hsl(215, 51%, 70%);
+}
+.profile img,
+.profile p{
+    vertical-align: middle;
+    display: inline-block;
+}
+span.white-text{
+    color: white;
+}
